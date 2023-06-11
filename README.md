@@ -42,12 +42,14 @@ Note: If you change any environment variables in your `.env` file, you will need
 6. Once the services are running, the API will be accessible at `http://127.0.0.1:13000`. You can test it using the following examples:
 
    - **Forefront Model**
+
      ```
      http://127.0.0.1:13000/ask?prompt=whoareyou&model=forefront
      http://127.0.0.1:13000/ask/stream?prompt=whoareyou&model=forefront
      ```
 
    - **MCBBS Model**
+
      ```
      http://127.0.0.1:13000/ask?prompt=nothing&model=mcbbs&messages=[{"role":"system","content":"IMPORTANT: You are a virtual assistant powered by the gpt-3.5-turbo model, now time is 2023/6/3 13:42:27}"},{"role":"user","content":"你好\n"},{"role":"assistant","content":"你好！有什么我可以帮助你的吗？"},{"role":"user","content":"写个冒泡排序\n"}]
      ```
@@ -64,7 +66,14 @@ Note: If you change any environment variables in your `.env` file, you will need
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
 - [Create Your First Extension - Raycast API](https://developers.raycast.com/basics/create-your-first-extension)
 
+## Author
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
 ## Show your support
 
-Give a ⭐️ if this project helped you!
-
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
