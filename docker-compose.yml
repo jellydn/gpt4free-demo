@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  gpt4free-ts:
+    image: xiangsx/gpt4free-ts:latest
+    ports:
+      - "13000:3000"
+    restart: always
+    volumes:
+      - ./run:/usr/src/app/run
+    cap_add:
+      - "SYS_ADMIN"
+    environment:
+      - http_proxy=${http_proxy}
+      - https_proxy=${https_proxy}
+      - rapid_api_key=${rapid_api_key}
+      - EMAIL_TYPE=${EMAIL_TYPE}
+      - DEBUG=${DEBUG}
+      - POOL_SIZE=${POOL_SIZE}
+
