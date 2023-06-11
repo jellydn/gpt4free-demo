@@ -8,6 +8,7 @@
 ## Demo
 
 ![https://gyazo.com/482f04e3061ebec1e12d39cd3850265d.gif](https://gyazo.com/482f04e3061ebec1e12d39cd3850265d.gif)
+![https://gyazo.com/d44a9ad144deb85e8a29952926acae43.gif](https://gyazo.com/d44a9ad144deb85e8a29952926acae43.gif)
 
 ## Usage
 
