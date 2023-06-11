@@ -33,6 +33,8 @@ cp .env.example .env
 docker-compose up -d
 ```
 
+![https://gyazo.com/d9a6b8be62174b2c6d227334ff8adc6c.gif](https://gyazo.com/d9a6b8be62174b2c6d227334ff8adc6c.gif)
+
 This command will start the services defined in your `docker-compose.yml` file in the background and leave them running.
 
 Note: If you change any environment variables in your `.env` file, you will need to stop and restart your services for the changes to take effect. You can do this with `docker-compose down` and `docker-compose up -d` respectively.
