@@ -3,6 +3,10 @@
   How to setup a free OpenAI GPT-4 API on your own
 </p>
 
+[![IT Man - Tech #38 - Setting Up Your Own Free GPT-4 API with gpt4free-ts [Vietnamese]](https://i.ytimg.com/vi/Z0ZUdFqvR_I/hqdefault.jpg)](https://www.youtube.com/watch?v=Z0ZUdFqvR_I)
+
+## Demo
+
 ![https://gyazo.com/482f04e3061ebec1e12d39cd3850265d.gif](https://gyazo.com/482f04e3061ebec1e12d39cd3850265d.gif)
 
 ## Usage
@@ -65,6 +69,12 @@ Note: If you change any environment variables in your `.env` file, you will need
 - [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
 - [Create Your First Extension - Raycast API](https://developers.raycast.com/basics/create-your-first-extension)
+
+## Reference videos
+
+[![IT Man - Talk #34 - Bye Bye #Docker Desktop [Vietnamese]](https://i.ytimg.com/vi/llThjxFb7KU/mqdefault.jpg)](https://www.youtube.com/watch?v=llThjxFb7KU)
+
+[![IT Man - Tip #36 - #Raycast AI - #ChatGPT - Anytime, anywhere [Vietnamese]](https://i.ytimg.com/vi/sY01NrxVQJM/mqdefault.jpg)](https://www.youtube.com/watch?v=sY01NrxVQJM)
 
 ## Author
 
