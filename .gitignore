@@ -1,0 +1,5 @@
+.env
+run
+build
+dist
+node_modules
