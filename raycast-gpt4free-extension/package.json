@@ -28,7 +28,7 @@
     "@types/react": "18.2.14",
     "eslint": "8.43.0",
     "prettier": "2.8.8",
-    "typescript": "5.1.5"
+    "typescript": "5.1.6"
   },
   "scripts": {
     "build": "ray build -e dist",
