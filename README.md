@@ -53,6 +53,39 @@ Follow these steps to get gpt4free-demo up and running:
 
    More usage examples can be found at [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts#-lets-use-gpt4).
 
+Certainly! If you want to include instructions on how to use `hurl` to test the API in the README, you can add a new section like this:
+
+## Testing with Hurl
+
+[Hurl](https://hurl.dev/) is a command-line tool to run HTTP requests. You can use it to test the endpoints in this API. Here's how you can get started:
+
+1. **Install Hurl**: Follow the instructions on the [official website](https://hurl.dev/docs/installation.html) to install Hurl on your system.
+
+2. **Create a Hurl File**: You can create a file with a `.hurl` extension to define the HTTP requests you want to test. Here's an example `gpt.hurl` file for this project:
+
+   ```hurl
+   # List all supports model
+   GET http://127.0.0.1:13000/supports
+
+   # Call Vita model
+   GET http://127.0.0.1:13000/ask
+   [QueryStringParams]
+   site: vita
+   model: gpt-3.5-turbo
+   prompt: Tell me a joke about Software Engineering
+   ```
+
+3. **Run the Hurl File**: Use the following command to execute the `gpt.hurl` file:
+
+   ```bash
+   hurl --verbose gpt.hurl
+   ```
+
+   This will run the defined HTTP requests and print the responses to the terminal.
+
+4. **Read the Documentation**: For more advanced usage, you can refer to the [samples documentation](https://hurl.dev/docs/samples.html).
+
+
 ## Resources
 
 - [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
