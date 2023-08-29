@@ -27,7 +27,7 @@
     "@types/node": "18.17.12",
     "@types/react": "18.2.21",
     "eslint": "8.48.0",
-    "prettier": "3.0.2",
+    "prettier": "3.0.3",
     "typescript": "5.2.2"
   },
   "scripts": {
