@@ -23,7 +23,7 @@
     "node-fetch": "3.3.2"
   },
   "devDependencies": {
-    "@raycast/eslint-config": "1.0.8",
+    "@raycast/eslint-config": "1.0.9",
     "@types/node": "20.14.15",
     "@types/react": "18.3.3",
     "eslint": "9.9.0",
