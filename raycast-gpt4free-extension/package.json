@@ -26,9 +26,9 @@
     "@raycast/eslint-config": "1.0.11",
     "@types/node": "22.14.0",
     "@types/react": "18.3.20",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "prettier": "3.5.3",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "scripts": {
     "build": "ray build -e dist",
