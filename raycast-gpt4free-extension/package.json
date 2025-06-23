@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "1.100.2",
+    "@raycast/api": "1.100.3",
     "node-fetch": "3.3.2"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "@types/node": "22.15.32",
     "@types/react": "18.3.23",
     "eslint": "9.29.0",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "typescript": "5.8.3"
   },
   "scripts": {
